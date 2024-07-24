@@ -21,11 +21,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         duration: 600,
         easing: 'cubic-bezier(0.42, 0, 0.12, 1.28)'
     });
-    // kursor
-     new kursor({
-         type: 4,
-         color: '#7E74F1'
-     });
     // SVG Sprite Support
     svg4everybody();
     // CSS Var support
