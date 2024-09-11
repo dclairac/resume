@@ -352,27 +352,14 @@
     <section class="contact-section" id="contact">
         <div class="container">
             <div class="contact-wrapper">
-                <div class="contact-form">
-                    <form name="contactForm">
-                        <p class="success-submit-message" data-i18n="contact_msg_sent">...</p>
-                        <p class="fail-submit-message" data-i18n="contact_msg_error">...</p>
-                        <div class="form-control">
-                            <input name="name" class="mb-16" type="text" placeholder="Name" data-aos="fade-up" data-aos-delay="50">
-                            <p class="validation-error name" data-i18n="contact_msg_name">...</p>
+                <div class="contact-logo">
+                    <picture>
+                        <source srcset="assets/img/logo_itc-dark.png" media="none" data-media="(prefers-color-scheme: dark)">
+                        <img alt="Logo" loading="lazy" decoding="async" data-nimg="1" srcset="assets/img/logo_itc-light.png" src="assets/img/logo_itc-light.png" class="company-logo"></img>
+                    </picture>
+                    <div>
+                        <p>SASU capital 1 000€</p><p>RCS Toulouse 932 637 341 - TVA FR 94932637341</p>
                         </div>
-                        <div class="form-control">
-                            <input name="email" class="mb-24" type="text" placeholder="Email" data-aos="fade-up" data-aos-delay="100">
-                            <p class="validation-error email" data-i18n="contact_msg_email">...</p>
-                        </div>
-                        <div class="form-control">
-                            <textarea name="message" rows="8" placeholder="Message" data-aos="fade-up" data-aos-delay="150"></textarea>
-                            <p class="validation-error message" data-i18n="contact_msg_text">...</p>
-                        </div>
-                        <button class="btn btn-primary submit-btn" data-aos="fade-up" data-aos-delay="200" data-i18n="contact_msg_send">
-                            ...
-                            <span class="loading"></span>
-                        </button>
-                    </form>
                 </div>
                 <div class="contact-info">
                     <div class="contact-info-item" data-aos="fade-up" data-aos-delay="50">
@@ -383,7 +370,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title" data-i18n="contact_address_title">...</h4>
-                            <p class="body">IT Advices, 13 Rue Sainte Ursule 31000 TOULOUSE, France</p>
+                            <p class="body">13 Rue Sainte Ursule 31000 TOULOUSE, France</p>
                         </div>
                     </div>
                     <div class="contact-info-item" data-aos="fade-up" data-aos-delay="150">
@@ -394,7 +381,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title" data-i18n="contact_phone_title">Téléphone</h4>
-                            <p class="body">+33 (0)6 66 71 10 71</p>
+                            <p class="body"><a href="tel:+33666711071">+33 (0)6 66 71 10 71</a></p>
                         </div>
                     </div>
                     <div class="contact-info-item" data-aos="fade-up" data-aos-delay="200">
@@ -405,7 +392,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title" data-i18n="contact_email_title">Email</h4>
-                            <p class="body">contact@itadvices.com</p>
+                            <p class="body"><a href="mailto:contact@itc-advice.com">contact@itc-advice.com</a></p>
                         </div>
                     </div>
                 </div>

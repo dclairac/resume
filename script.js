@@ -113,74 +113,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
     }
-    // Contact Form
-    function validateForm() {
-        if (document.contactForm.name.value == '') {
-            document.querySelector('.validation-error.name').classList.add('active')
-            document.contactForm.name.focus();
-            return false;
-        } else {
-            document.querySelector('.validation-error.name').classList.remove('active')
-        }
-        var emailRegex = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
-        if (document.contactForm.email.value == '' || !document.contactForm.email.value.match(emailRegex)) {
-            document.querySelector('.validation-error.email').classList.add('active')
-            document.contactForm.email.focus();
-            return false;
-        } else {
-            document.querySelector('.validation-error.email').classList.remove('active')
-        }
-        if (document.contactForm.message.value == '') {
-            document.querySelector('.validation-error.message').classList.add('active')
-            document.contactForm.message.focus();
-            return false;
-        } else {
-            document.querySelector('.validation-error.message').classList.remove('active')
-        }
-        return true;
-    }
-    document.contactForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-        if (validateForm()) {
-            var formElements = document.contactForm.elements;
-            var formData = {};
-            for (var i = 0; i < formElements.length; i++) {
-                if (formElements[i].name && formElements[i].value) {
-                    formData[formElements[i].name] = formElements[i].value
-                }
-            }
-            var raw = JSON.stringify(formData);
-            var requestOptions = {
-                method: 'POST',
-                body: raw,
-                redirect: 'follow'
-            };
-            document.getElementsByClassName("submit-btn")[0].classList.add('show-loading');
-            fetch("https://contact-form.devchapter-work.workers.dev", requestOptions)
-                .then(response => response.text())
-                .then(result => {
-                    document.getElementsByClassName("submit-btn")[0].classList.remove('show-loading')
-                    document.getElementsByClassName('success-submit-message')[0].classList.add('active')
-                    document.contactForm.reset();
-                    setTimeout(function () {
-                        document.getElementsByClassName('success-submit-message')[0].classList.remove('active')
-                    }, 4000)
-                })
-                .catch(error => {
-                    document.getElementsByClassName("submit-btn")[0].classList.remove('show-loading')
-                    document.getElementsByClassName('fail-submit-message')[0].classList.add('active');
-                    setTimeout(function () {
-                        document.getElementsByClassName('fail-submit-message')[0].classList.remove('active')
-                    }, 4000)
-                });
-        }
-    })
-    document.contactForm.addEventListener('change', function (e) {
-        e.preventDefault();
-        document.querySelectorAll('.validation-error').forEach(function (el) {
-            el.classList.remove('active')
-        })
-    })
+
     // Copyright
     var currentYear = new Date().getFullYear();
     var copyrightText = document.querySelector(".footer .copyright .year").innerHTML
