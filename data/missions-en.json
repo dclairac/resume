@@ -85,7 +85,7 @@
   },
   {
     "company": "Navista",
-    "logo": "sales-producers",
+    "logo": "sales-producteurs",
     "customer": "Sales Producers",
     "cat": "Advice & Expertise",
     "dtstart": "2003-10-06",
@@ -333,7 +333,7 @@
   },
   {
     "company": "SQLI",
-    "logo": "National stud farms",
+    "logo": "Haras-nationaux",
     "customer": "IFCE (National Stud Farm)",
     "cat": "Advice & Expertise",
     "dtstart": "2009-02-02",
@@ -1120,7 +1120,7 @@
   },
   {
     "company": "SQLI",
-    "logo": "clinic-pasteur",
+    "logo": "clinique-pasteur",
     "customer": "Pasteur Clinic",
     "cat": "Advice & Expertise",
     "dtstart": "2013-01-14",
@@ -1252,7 +1252,7 @@
   },
   {
     "company": "SQLI",
-    "logo": "Meteo France",
+    "logo": "meteo-france",
     "customer": "Meteo France",
     "cat": "Advice & Expertise",
     "dtstart": "2011-05-16",
@@ -1396,7 +1396,7 @@
   },
   {
     "company": "SQLI",
-    "logo": "clinic-pasteur",
+    "logo": "clinique-pasteur",
     "customer": "Pasteur Clinic",
     "cat": "Advice & Expertise",
     "dtstart": "2015-01-12",
@@ -1490,7 +1490,7 @@
   },
   {
     "company": "SQLI",
-    "logo": "Air France",
+    "logo": "airfrance",
     "customer": "Air France",
     "cat": "Training",
     "dtstart": "2008-05-05",
@@ -1794,7 +1794,7 @@
   },
   {
     "company": "Red Hat (via onepoint)",
-    "logo": "job",
+    "logo": "poste",
     "customer": "The post office",
     "cat": "ST Red Hat PS",
     "dtstart": "2016-07-04",
@@ -2030,7 +2030,7 @@
   },
   {
     "company": "onepoint",
-    "logo": "act",
+    "logo": "agirc",
     "customer": "Agirc Arrco",
     "cat": "Advice",
     "dtstart": "2017-12-04",

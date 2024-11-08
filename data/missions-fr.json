@@ -1070,12 +1070,12 @@
         "cat": "Conseil",
         "dtstart": "2020-10-05",
         "dtend": "2021-04-02",
-        "tags": ["OpenShift", "Java", "SSL", "SSO", "Java", "API REST"],
+        "tags": ["OpenShift", "Java", "SSL", "SSO", "API REST"],
         "role": "Consultant Senior",
         "title": "Audit solution Certicode+",
         "desc": "Réalisation d’un audit autour de la chaine de liaison Certicode + visant à gérer les authentifications 2 facteurs (dans le cadre de DSP2). Interview des équipes et architectes, analyse des documentations, du code et des infrastructures (réseau, sécurité, machines et OpenShift). ",
         "team": "2 Consultants",
-        "tasks": ["Recueil des inforamtions via des interviews/ateliers", "Analyse des documentations et productions existantes", "Recherches d’informations sur les insfrastructures (traces", "incidents …)", "Réalisation d’une restitutions avec QuickWins et chantiers de fonds"]
+        "tasks": ["Recueil des informations via des interviews/ateliers", "Analyse des documentations et productions existantes", "Recherches d’informations sur les insfrastructures (traces", "incidents …)", "Réalisation d’une restitutions avec QuickWins et chantiers de fonds"]
     },
     {
         "company": "onepoint",
